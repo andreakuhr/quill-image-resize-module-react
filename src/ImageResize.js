@@ -3,8 +3,9 @@ import DefaultOptions from './DefaultOptions';
 import { DisplaySize } from './modules/DisplaySize';
 import { Toolbar } from './modules/Toolbar';
 import { Resize } from './modules/Resize';
+import { BaseModule } from './modules/BaseModule';
 
-const knownModules = { DisplaySize, Toolbar, Resize };
+const knownModules = { DisplaySize, Toolbar, Resize, BaseModule };
 
 /**
  * Custom module for quilljs to allow user to resize <img> elements
